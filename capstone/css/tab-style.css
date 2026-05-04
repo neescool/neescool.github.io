@@ -1,0 +1,29 @@
+nav {
+    float: right;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    width: 80px;
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
