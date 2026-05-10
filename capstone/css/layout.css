@@ -1,6 +1,7 @@
 body {
     font-family: 'Asimovian', sans-serif;
     background-color: #000000;
+    line-height: 23px;
 }
 #container {
     width: 90%;
@@ -50,6 +51,7 @@ body {
 .description {
     font-size: 20px;
     background-color: rgb(194, 177, 201);
+    padding: 10px;
 }
 .float-left {
     float: left;
@@ -233,4 +235,17 @@ table, th, td {
 }
 .artist-main {
     background-color:white;
+}
+
+table {
+    padding-bottom: 10%;
+    
+}
+.about-title {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+tr, td, th {
+    padding: 10px;
 }
