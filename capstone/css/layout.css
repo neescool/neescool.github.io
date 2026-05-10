@@ -49,7 +49,7 @@ body {
 }
 .description {
     font-size: 20px;
-    background-color: rgb(153, 168, 168);
+    background-color: rgb(194, 177, 201);
 }
 .float-left {
     float: left;
@@ -199,7 +199,7 @@ body {
 }
 
 table, th, td {
-    border: 1px solid black
+    border: 3px solid black
 }
     
 #artist-about {
@@ -207,17 +207,19 @@ table, th, td {
 }
 
 .about-size {
-    width: 60%;
+    width: 50%;
     margin-bottom: 20px;
 }
 
 .abt-img {
     width: 350px;
     position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .abt-bckg {
-    background-image: url('images/sillything.png');
+    background-image: url('../images/sillything.png');
     background-size: contain;
     background-repeat: repeat-y;  
 
