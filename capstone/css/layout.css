@@ -26,7 +26,7 @@ body {
     overflow-y: auto;
     overflow-x: none;
     height: 400px;
-    background-image: url('/images/sillything.png');
+    background-image: url('images/sillything.png');
     background-size: contain;
     background-repeat: repeat-y;  
 }
@@ -217,7 +217,7 @@ table, th, td {
 }
 
 .abt-bckg {
-    background-image: url('/images/sillything.png');
+    background-image: url('images/sillything.png');
     background-size: contain;
     background-repeat: repeat-y;  
 
