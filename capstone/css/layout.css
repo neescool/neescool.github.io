@@ -214,7 +214,8 @@ table, th, td {
 .abt-bckg {
     background-image: url('../images/sillything.png');
     background-size: contain;
-    background-repeat: repeat-y;  
+    background-repeat: repeat-y; 
+    background-repeat: repeat-x; 
 
 }
 
@@ -253,4 +254,10 @@ tr, td, th {
 
 #artist-about {
     width: 420px;
+}
+
+.info-img {
+    width: 400px;
+    height: auto;
+    padding-right: 80px;
 }
