@@ -257,7 +257,16 @@ tr, td, th {
 }
 
 .info-img {
-    width: 400px;
+    width: 600px;
     height: auto;
-    padding-right: 80px;
+    padding-right: 150px;
+}
+
+.info-icons {
+    width: 30px;
+    height: auto;
+}
+
+.centerish {
+    text-align: center;
 }
